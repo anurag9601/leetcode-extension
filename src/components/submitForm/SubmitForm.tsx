@@ -7,7 +7,16 @@ interface SubmitFormProps {
   setApiKey: React.Dispatch<React.SetStateAction<string | null>>;
 }
 
-const SubmitForm: React.FC<SubmitFormProps> = ({ apiKeySuccess }) => {
+const SubmitForm: React.FC<SubmitFormProps> = ({
+  apiKeySuccess,
+  setApiKey,
+}) => {
+  function handleDeletePresentApiKey() {
+    chrome.storage.local.remove(["leetcodeGeminiApiKey"], () => {
+      setApiKey(null);
+    });
+  }
+
   return (
     <>
       {apiKeySuccess === true ? (
@@ -20,7 +29,7 @@ const SubmitForm: React.FC<SubmitFormProps> = ({ apiKeySuccess }) => {
       ) : (
         <div className={styles.setApiMessage}>
           <div className={styles.resetBtn}>
-            <button>Reset API key</button>
+            <button onClick={handleDeletePresentApiKey}>Reset API key</button>
           </div>
           <p>
             Your API key has been <span>successfully</span> set! You can now

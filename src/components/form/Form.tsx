@@ -5,7 +5,7 @@ import SubmitForm from "../submitForm/SubmitForm";
 const Form = () => {
   const inputRef = React.useRef<HTMLInputElement | null>(null);
 
-  const [apiKey, setApiKey] = React.useState<string | null>("api-key");
+  const [apiKey, setApiKey] = React.useState<string | null>(null);
 
   const [apiKeySuccess, setApiKeySuccess] = React.useState<boolean>(false);
 
