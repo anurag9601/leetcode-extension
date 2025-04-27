@@ -1,0 +1,75 @@
+.successMessageContainer{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.successMessage{
+    height: 200px;
+    width: 200px;
+    background-color: #92e6a7;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    color: #25a244;
+    font-family: "Comic Relief", system-ui;
+}
+
+.successMessage span{
+    font-size: 20px;
+}
+
+.checkIcon{
+    font-size: 25px;
+}
+
+.setApiMessage{
+    margin-top: 20px;
+    width: 100%;
+    height: fit-content;
+    padding: 15px;
+    border: 1px solid;
+    border-radius: 8px;
+}
+
+.resetBtn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.resetBtn button{
+    width: fit-content;
+    height: 25px;
+    border: none;
+    outline: none;
+    background-color: #4361ee;
+    font-size: 12px;
+    border-radius: 8px;
+    font-family: "Comic Relief", system-ui;
+    cursor: pointer;
+    padding: 0px 15px;
+}
+
+.resetBtn button:hover{
+    opacity: .7;
+}
+
+.setApiMessage p{
+    margin-top: 20px;
+    font-family: "Comic Relief", system-ui;
+    font-size: 13px;
+}
+
+.setApiMessage p span{
+    background-color: #4361ee;
+    padding: 2px 5px;
+    border-radius: 5px;
+}

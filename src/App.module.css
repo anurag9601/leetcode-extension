@@ -1,0 +1,6 @@
+.popupContainer{
+  height: fit-content;
+  max-width: 350px;
+  width: 100%;
+  padding: 30px 20px;
+}

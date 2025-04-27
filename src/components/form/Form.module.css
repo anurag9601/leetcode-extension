@@ -1,0 +1,58 @@
+.formContainer{
+    margin-top: 20px;
+}
+
+.formContainer p{
+    font-family: "Comic Relief", system-ui;
+    font-size: 12px;
+    font-weight: 500;   
+}
+
+.formContainer p span{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.formContainer p a{
+    margin-top: 5px;
+    color: #4361ee;
+}
+
+.formContainer input{
+    margin-top: 15px;
+    width: 100%;
+    height: 35px;
+    border: none;
+    outline: none;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 0 15px;
+    font-family: "Comic Relief", system-ui;
+}
+
+.formContainer input:hover{
+    border: 1px solid #3a0ca3;
+    box-shadow: 0px 0px 3px 1px #4895ef;
+}
+
+.formContainer input:focus{
+    border: 1px solid #3a0ca3;
+    box-shadow: 0px 0px 3px 1px #4895ef;
+}
+
+.formContainer button{
+    margin-top: 15px;
+    width: 100%;
+    height: 35px;
+    border: none;
+    outline: none;
+    background-color: #4361ee;
+    font-size: 15px;
+    border-radius: 8px;
+    font-family: "Comic Relief", system-ui;
+    cursor: pointer;
+}
+
+.formContainer button:hover{
+    opacity: .7;
+}

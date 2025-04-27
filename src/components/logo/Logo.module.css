@@ -1,0 +1,19 @@
+.logoContainer{
+    flex: 1;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 0 15px;
+}
+
+.logo{
+    height: 50px;
+    width: 50px
+}
+
+.logoContainer h5{
+    font-size: 18px;
+    font-family: "Comic Relief", system-ui;
+}

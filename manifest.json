@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "version": "0.0.1",
+    "name": "Leetcode Extension",
+    "description": "A Chrome extension designed to assist developers by providing real-time clues and hints directly within their current LeetCode problem tab, enhancing their problem-solving experience without needing to switch contexts.",
+    "action": {
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "storage"
+    ],
+    "host_permissions": [
+        "http://localhost:5173/",
+        "*://leetcode.com/problems/*"
+    ]
+}
