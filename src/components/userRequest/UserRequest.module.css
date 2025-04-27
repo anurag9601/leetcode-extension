@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Patrick+Hand+SC&family=Sigmar&family=Winky+Rough:ital,wght@0,300..900;1,300..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+.userRequestContainer{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.userRequest{
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    gap: 5px;
+}
+
+.userIcon{
+    font-size: 17px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    background-color: #fff;
+    border-radius: 100%;
+}
+
+.userRequest p{
+    width: 85%;
+    font-size: 14px;
+    font-family: "Comic Relief", system-ui;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

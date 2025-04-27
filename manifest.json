@@ -9,8 +9,17 @@
     "permissions": [
         "storage"
     ],
+    "content_scripts": [
+        {
+            "matches": [
+                "*://leetcode.com/problems/*"
+            ],
+            "js": [
+                "./src/Content.tsx"
+            ]
+        }
+    ],
     "host_permissions": [
-        "http://localhost:5173/",
-        "*://leetcode.com/problems/*"
+        "http://localhost:5173/"
     ]
 }
