@@ -84,8 +84,6 @@ const ChatArea: React.FC<ChatAreaProps> = ({ chat, setChat }) => {
     chatAreaViewRef.current.scrollIntoView({ behavior: "smooth" });
   }, [chat]);
 
-  console.log("chat", chat);
-
   return (
     <div className={styles.chatAreaContainer}>
       {chat.length > 0 ? (
